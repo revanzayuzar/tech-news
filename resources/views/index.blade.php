@@ -25,7 +25,7 @@
 
 <body>
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-        <div class="col-11 col-sm-8 col-md-6 col-lg-4 bg-light p-5 border" style="border-radius: 10px">
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4 bg-light px-3 py-5 px-sm-5 border" style="border-radius: 10px">
             <h1 class="fs-3 text-center mb-0">Selamat Datang Di</h1>
 
             <h1 class="text-primary fs-1 fw-bold text-center mx-auto my-5 p-3 shadow-lg"
@@ -33,9 +33,9 @@
                 TECH <br> NEWS
             </h1>
 
-            <div class="d-flex justify-content-center">
-                <a href="{{ route('login') }}" class="btn btn-primary d-block col-5 mx-2">Login</a>
-                <a href="{{ route('register') }}" class="btn btn-success d-block col-5 mx-2">Register</a>
+            <div class="d-flex flex-column align-items-center">
+                <a href="{{ route('login') }}" class="btn btn-primary col-10 py-2">Login</a>
+                <a href="{{ route('register') }}" class="btn btn-success col-10 mt-4 py-2">Register</a>
             </div>
         </div>
     </div>
