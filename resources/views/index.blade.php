@@ -18,14 +18,14 @@
 
     <title>
 
-        Selamat Datang
+        Tech News
 
     </title>
 </head>
 
 <body>
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-        <div class="bg-light p-5 border" style="border-radius: 10px">
+        <div class="col-11 col-sm-8 col-md-6 col-lg-4 bg-light p-5 border" style="border-radius: 10px">
             <h1 class="fs-3 text-center mb-0">Selamat Datang Di</h1>
 
             <h1 class="text-primary fs-1 fw-bold text-center mx-auto my-5 p-3 shadow-lg"
