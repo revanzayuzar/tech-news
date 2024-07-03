@@ -16,6 +16,7 @@
     <div class="col-11 col-xl-10 mx-auto border border-primary" style="border-radius: 10px">
         <h1 class="bg-primary text-light fs-5 text-center mb-0 py-2"
             style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+            <i class="bi bi-plus-square"></i>
             TAMBAHKAN PENGUMUMAN
         </h1>
 

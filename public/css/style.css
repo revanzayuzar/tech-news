@@ -1,9 +1,9 @@
 /* Color */
 
 :root {
-    --color-1: #00287e;
+    --color-1: #000e88;
 
-    --color-hover-1: #0b58ff;
+    --color-hover-1: #0047e0;
 }
 
 .color-1 {
@@ -16,11 +16,4 @@
 
 .active-menu {
     background-color: var(--color-1);
-}
-
-/* Dropdown */
-
-.dropdown-menu {
-    left: auto;
-    right: 0;
 }

@@ -41,7 +41,7 @@
 
     <footer class="container py-3 border-top" style="margin-top: 100px">
         <h1 class="fs-3 fw-bold text-center">TECH <br> NEWS</h1>
-        <small class="d-block mx-auto border-top mt-3 px-3 pt-2" style="width: max-content">Design by Revan | 2024</small>
+        <small class="d-block mx-auto border-top mt-3 px-3 pt-2" style="width: max-content">Design by Revan | © 2024</small>
     </footer>
 
     {{-- Bootstrap 5.3 JS --}}

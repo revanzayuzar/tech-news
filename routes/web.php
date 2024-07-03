@@ -16,10 +16,10 @@ Route::get('/', function () {
 Auth::routes();
 
 // Home | Admin
-Route::get('/home', [HomeController::class, 'index'])->name('admin.beranda.index');
+Route::get('/dashboard', [HomeController::class, 'index'])->name('admin.beranda.index');
 
 // Home | User
-Route::get('/user/home', [HomeController::class, 'index_user'])->name('user.beranda.index');
+Route::get('/user/beranda', [HomeController::class, 'index_user'])->name('user.beranda.index');
 
 // Berita | Admin
 Route::get('/dashboard/berita', [BeritaController::class, 'index'])->name('admin.berita.index');

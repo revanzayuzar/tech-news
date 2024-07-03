@@ -17,6 +17,7 @@
         style="margin-top: 125px; border-radius: 10px">
         <h1 class="bg-primary text-light fs-5 text-center mb-0 py-2"
             style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+            <i class="bi bi-person-circle"></i>
             KONTAK WEBSITE
         </h1>
 
@@ -39,7 +40,7 @@
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Email :</span>
-                tech_news@gmail.test
+                tech_news@gmail.com
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Admin 1 :</span>

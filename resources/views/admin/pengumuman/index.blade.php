@@ -16,6 +16,7 @@
     <div class="col-11 mx-auto border border-primary" style="border-radius: 10px">
         <h1 class="bg-primary text-light fs-5 text-center mb-0 py-2"
             style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+            <i class="bi bi-megaphone"></i>
             DAFTAR PENGUMUMAN
         </h1>
 
@@ -38,7 +39,8 @@
                 <thead>
                     <tr>
                         <th class="text-light text-center text-nowrap" style="background-color: #00287e">ID</th>
-                        <th class="text-light text-center text-nowrap" style="background-color: #00287e">JUDUL PENGUMUMAN</th>
+                        <th class="text-light text-center text-nowrap" style="background-color: #00287e">JUDUL PENGUMUMAN
+                        </th>
                         <th class="text-light text-center text-nowrap" style="background-color: #00287e">PENULIS</th>
                         <th class="text-light text-center text-nowrap" style="background-color: #00287e">TANGGAL UPLOAD</th>
                         <th class="text-light text-center text-nowrap" style="background-color: #00287e">AKSI</th>
@@ -65,9 +67,42 @@
                                 <form action="{{ route('admin.pengumuman.destroy', $item->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-danger fs-5 mx-1">
+                                    {{-- <button type="submit" class="btn btn-danger fs-5 mx-1">
+                                        <i class="bi bi-trash3"></i>
+                                    </button> --}}
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-danger fs-5 mx-1" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         <i class="bi bi-trash3"></i>
                                     </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content border border-danger">
+                                                <div class="modal-header bg-danger text-light border-bottom-0">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                        <i class="bi bi-trash3"></i>
+                                                        HAPUS PENGUMUMAN
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body text-center">
+                                                    <i class="bi bi-exclamation-circle text-danger"
+                                                        style="font-size: 50px"></i>
+                                                    <p>Apakah Anda yakin ingin menghapus Pengumuman?</p>
+                                                </div>
+                                                <div class="modal-footer border-top-0">
+                                                    <button type="button" class="btn btn-success"
+                                                        data-bs-dismiss="modal">Tidak</button>
+                                                    <button type="submit" class="btn btn-danger">Hapus</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </form>
                             </td>
                         </tr>

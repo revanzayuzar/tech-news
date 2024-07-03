@@ -82,7 +82,7 @@
         <div class="sidebar col-9 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex flex-column text-light bg-primary p-3 overflow-y-auto position-absolute top-0 bottom-0"
             style="height: 100vh; left: 0;">
             <a href="{{ route('admin.beranda.index') }}" class="text-decoration-none">
-                <h1 class="text-light fs-2 fw-bold text-center mt-3 mb-5">TECH<br>NEWS</h1>
+                <h1 class="text-light fs-1 fw-bold text-center mt-4 mb-5">TECH<br>NEWS</h1>
             </a>
             <ul class="nav nav-pills flex-column mb-auto">
 
@@ -109,28 +109,11 @@
                     </a>
                 </div>
 
-                {{-- Logic : No & Style : Yes --}}
-                {{-- <div class="dropdown">
-                    <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile" id="profileDropdown"
-                        data-bs-toggle="dropdown" data-bs-auto-close="outside" class="rounded-circle"
-                        style="width: 40px">
-                    <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-3" aria-labelledby="profileDropdown">
-                        <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile"
-                            class="rounded-circle d-block mx-auto my-3" style="width: 60px">
-                        <h1 class="text-light fs-5 fw-semibold text-center">Admin</h1>
-                        <a href="#" class="btn btn-danger d-block mt-3 mb-2">
-                            <span style="margin-right: 5px">Sign Out</span>
-                            <i class="bi bi-arrow-right-square"></i>
-                        </a>
-                    </ul>
-                </div> --}}
-
-                {{-- Logic : Yes & Style : Yes --}}
                 <div class="dropdown">
                     <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile" id="profileDropdown"
                         data-bs-toggle="dropdown" data-bs-auto-close="outside" class="rounded-circle"
                         style="width: 40px">
-                    <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-3" aria-labelledby="profileDropdown"
+                    <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-5 border-primary border-3" aria-labelledby="profileDropdown"
                         style="width: max-content">
                         <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile"
                             class="rounded-circle d-block mx-auto my-3" style="width: 60px">
@@ -150,26 +133,6 @@
                         </form>
                     </ul>
                 </div>
-
-                {{-- Logic : Yes & Style : No --}}
-                {{-- <div class="dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{ Auth::user()->name }}
-                    </a>
-
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ route('logout') }}"
-                            onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                        </a>
-
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                            @csrf
-                        </form>
-                    </div>
-                </div> --}}
             </nav>
             {{-- Main Header End --}}
 
@@ -184,7 +147,7 @@
             {{-- Content Container End --}}
 
             <footer class="col-12 col-lg-9 col-xl-10 bg-light position-fixed bottom-0 text-center py-1">
-                <small>Design by Revan | 2024</small>
+                <small>Design by Revan | © 2024</small>
             </footer>
         </div>
         {{-- Main Container End --}}

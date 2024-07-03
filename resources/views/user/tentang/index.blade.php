@@ -17,6 +17,7 @@
         style="margin-top: 125px; border-radius: 10px">
         <h1 class="bg-primary text-light fs-5 text-center mb-0 py-2"
             style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+            <i class="bi bi-exclamation-circle"></i>
             TENTANG WEBSITE
         </h1>
 
@@ -48,7 +49,7 @@
             </p>
 
             <p class="text-center mb-3">
-                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.0.0
+                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.0.1
             </p>
         </article>
     </div>

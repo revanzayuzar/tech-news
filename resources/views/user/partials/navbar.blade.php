@@ -45,7 +45,7 @@
                 <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile" id="profileDropdown"
                     data-bs-toggle="dropdown" data-bs-auto-close="outside" class="rounded-circle"
                     style="width: 40px">
-                <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-3" aria-labelledby="profileDropdown"
+                <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-5 border-primary border-3" aria-labelledby="profileDropdown"
                     style="width: max-content">
                     <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile"
                         class="rounded-circle d-block mx-auto my-3" style="width: 60px">
