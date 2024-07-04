@@ -31,12 +31,28 @@
                 <span class="fw-semibold text-primary">TECH NEWS</span>
             </p>
             <p class="card-text mb-1">
+                <span class="fw-semibold">Pendiri :</span>
+                M. Revanza Yuzar
+            </p>
+            <p class="card-text mb-1">
                 <span class="fw-semibold">Negara :</span>
                 Indonesia
             </p>
             <p class="card-text mb-1">
-                <span class="fw-semibold">Lokasi :</span>
-                Kabupaten Pidie Jaya, Aceh.
+                <span class="fw-semibold">Provinsi :</span>
+                Aceh
+            </p>
+            <p class="card-text mb-1">
+                <span class="fw-semibold">Kabupaten :</span>
+                Pidie Jaya
+            </p>
+            <p class="card-text mb-1">
+                <span class="fw-semibold">Kecamatan :</span>
+                Meurah Dua
+            </p>
+            <p class="card-text mb-1">
+                <span class="fw-semibold">Desa :</span>
+                Beuringen
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Email :</span>
@@ -44,15 +60,15 @@
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Admin 1 :</span>
-                0852-0101-0101
+                0852-0001-0001
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Admin 2 :</span>
-                0852-0202-0202
+                0852-0002-0002
             </p>
             <p class="card-text mb-1">
                 <span class="fw-semibold">Admin 3 :</span>
-                0852-0303-0303
+                0852-0003-0003
             </p>
         </article>
     </div>

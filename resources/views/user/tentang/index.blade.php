@@ -49,7 +49,7 @@
             </p>
 
             <p class="text-center mb-3">
-                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.0.1
+                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.0.2
             </p>
         </article>
     </div>

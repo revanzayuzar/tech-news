@@ -45,8 +45,8 @@
                 <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile" id="profileDropdown"
                     data-bs-toggle="dropdown" data-bs-auto-close="outside" class="rounded-circle"
                     style="width: 40px">
-                <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-5 border-primary border-3" aria-labelledby="profileDropdown"
-                    style="width: max-content">
+                <ul class="dropdown-menu dropdown-menu-end color-1 mt-4 px-5 border-warning border-5" aria-labelledby="profileDropdown"
+                    style="width: max-content; border-radius: 25px">
                     <img src="{{ asset('img/profile.jpg') }}" alt="Profile" title="Profile"
                         class="rounded-circle d-block mx-auto my-3" style="width: 60px">
                     <h1 class="text-light fs-5 fw-semibold text-center">{{ Auth::user()->name }}</h1>

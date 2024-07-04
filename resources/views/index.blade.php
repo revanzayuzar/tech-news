@@ -18,15 +18,16 @@
 
     <title>
 
-        Tech News
+        TECH NEWS
 
     </title>
 </head>
 
 <body>
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-        <div class="col-10 col-sm-8 col-md-6 col-lg-4 bg-light px-3 py-5 px-sm-5 border border-primary border-5" style="border-radius: 10px">
-            <h1 class="text-primary fs-3 text-center mb-0">Selamat Datang Di</h1>
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4 bg-light px-3 py-5 px-sm-5 border border-primary border-5"
+            style="border-radius: 25px">
+            <h1 class="fs-5 text-center mb-0">Selamat Datang Di</h1>
 
             <h1 class="text-primary fs-1 fw-bold text-center mx-auto my-5 p-3 shadow-lg"
                 style="width: max-content; border-radius: 10px; transform: rotate(352deg)">
@@ -35,7 +36,7 @@
 
             <div class="d-flex flex-column align-items-center">
                 <a href="{{ route('login') }}" class="btn btn-primary col-10 py-2">Login</a>
-                <div class="py-2">atau</div>
+                <div class="my-3"><small>atau</small></div>
                 <a href="{{ route('register') }}" class="btn btn-success col-10 py-2">Register</a>
             </div>
         </div>

@@ -29,7 +29,7 @@
         @endif
         {{-- Alert End --}}
 
-        <a href="{{ route('admin.pengumuman.create') }}" class="btn btn-primary mx-3 mt-3">
+        <a href="{{ route('admin.pengumuman.create') }}" class="btn btn-primary mx-3 mt-5">
             <i class="bi bi-plus-square"></i>
             <span>Tambah Pengumuman</span>
         </a>
@@ -81,13 +81,13 @@
                                     <div class="modal fade" id="exampleModal" tabindex="-1"
                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content border border-danger">
+                                            <div class="modal-content border-danger border-3">
                                                 <div class="modal-header bg-danger text-light border-bottom-0">
                                                     <h1 class="modal-title fs-5" id="exampleModalLabel">
                                                         <i class="bi bi-trash3"></i>
                                                         HAPUS PENGUMUMAN
                                                     </h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body text-center">

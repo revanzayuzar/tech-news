@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card border-success">
+            <div class="card border-success shadow-sm">
                 <div class="card-header bg-success fs-5 text-light text-center">{{ __('Silahkan Register') }}</div>
 
                 <div class="card-body">

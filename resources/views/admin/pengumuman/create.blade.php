@@ -30,7 +30,7 @@
             <div class="mx-0 mx-md-5 mx-lg-0 mx-xl-5 mb-4">
                 <label for="judul_pengumuman" class="form-label fw-semibold">Judul Pengumuman</label>
                 <input type="text" class="form-control p-2 border border-primary" id="judul_pengumuman" name="judul_pengumuman"
-                    placeholder="Masukkan Judul Pengumuman" required
+                    placeholder="Masukkan Judul Pengumuman" required autofocus
                     oninvalid="this.setCustomValidity('Harap Masukkan Judul Pengumuman!')" oninput="setCustomValidity('')">
             </div>
 
