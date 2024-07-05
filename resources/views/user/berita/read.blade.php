@@ -17,6 +17,7 @@
         style="margin-top: 125px; border-radius: 10px">
         <h1 class="bg-primary text-light fs-5 text-center mb-0 py-2"
             style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+            <i class="bi bi-eye"></i>
             BACA BERITA
         </h1>
 

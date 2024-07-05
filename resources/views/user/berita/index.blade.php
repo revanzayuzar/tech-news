@@ -25,7 +25,7 @@
                     <p class="card-text mb-0"><span class="fw-semibold">Tanggal Upload :</span> {{ $item->tanggal_upload }}</p>
                     <a href="{{ route('user.berita.read', $item->id) }}" class="btn btn-primary d-block col-6 mx-auto mt-3 py-2">
                         <i class="bi bi-eye"></i>
-                        <span style="margin-left: 5px">Baca</span>
+                        <span>Baca</span>
                     </a>
                 </div>
             </div>

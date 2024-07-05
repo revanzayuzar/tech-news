@@ -19,7 +19,7 @@
             <p class="fw-semibold mt-3 mb-5">Apakah Anda sedang bersantai? Agar lebih bermanfaat yuk baca berita seputar
                 Perkembangan Teknologi yang ada di seluruh dunia
             </p>
-            <a href="{{ route('user.berita.index') }}" class="btn btn-primary btn-lg">
+            <a href="{{ route('user.berita.index') }}" class="btn btn-primary p-2">
                 <span>Baca Berita</span>
             </a>
         </div>

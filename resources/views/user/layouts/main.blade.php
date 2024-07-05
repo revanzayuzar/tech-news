@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg col-12 bg-primary position-fixed top-0" data-bs-theme="dark" style="z-index: 999">
+    <nav class="navbar navbar-expand-lg col-12 color-1 position-fixed top-0" data-bs-theme="dark" style="z-index: 999">
 
         {{-- Navbar --}}
         @yield('navbar')

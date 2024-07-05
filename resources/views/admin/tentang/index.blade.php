@@ -48,7 +48,7 @@
             </p>
 
             <p class="text-center mb-3">
-                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.0.2
+                <span class="text-primary fw-semibold">TECH NEWS</span> | Versi 1.1.3
             </p>
         </article>
     </div>
