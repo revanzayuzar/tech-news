@@ -11,7 +11,7 @@
             <div class="card border-success shadow-sm">
                 <div class="card-header bg-success fs-5 text-light text-center">{{ __('Silahkan Register') }}</div>
 
-                <div class="card-body">
+                <div class="card-body py-4">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -73,6 +73,11 @@
                             </div>
                         </div>
                     </form>
+
+                    <p class="col-md-6 offset-md-4 text-center mt-4 mb-0">
+                        Sudah mempunyai akun? Silahkan
+                        <a href="{{ route('login') }}" class="text-decoration-none">Login</a>
+                    </p>
                 </div>
             </div>
         </div>
